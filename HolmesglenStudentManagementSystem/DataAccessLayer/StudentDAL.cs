@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace HolmesglenStudentManagementSystem.DataAccessLayer
 {
+    //Code given by Holmesglen Institute
     public class StudentDAL
     {        
         private Microsoft.Data.Sqlite.SqliteConnection Connection;
