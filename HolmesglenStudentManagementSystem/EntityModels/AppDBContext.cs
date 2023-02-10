@@ -14,7 +14,7 @@ namespace HolmesglenStudentManagementSystem.EntityModels
         public DbSet<EntityEnrollment> Enrollments { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source=C:\Users\saint\Downloads\data-driven-at2-202220\HolmesglenStudentManagementSystem.db");
+            optionsBuilder.UseSqlite(@"Data Source=*");
         }
 
     }
